@@ -27,7 +27,6 @@ try:
     print("Sent buffer length " + str(len(buf)))
     s.close()
 except Exception:
-    print(data)
     print("Check for crash in debugger. Find offset:")
     print("sent buffer length " + str(len(buf) - ap.increment))
     sys.exit()
